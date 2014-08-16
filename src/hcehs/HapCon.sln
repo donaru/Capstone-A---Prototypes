@@ -3,9 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2013
 VisualStudioVersion = 12.0.21005.1
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HapticService", "HapticService\HapticService.csproj", "{AF694872-36EF-4368-AD9F-5992E252D33E}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "zzzObsolete_HapticService", "HapticService\zzzObsolete_HapticService.csproj", "{AF694872-36EF-4368-AD9F-5992E252D33E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RPCServiceHost", "RPCServiceHost\RPCServiceHost.csproj", "{24B104F6-C89C-4022-9B8E-7FE11B661F40}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "zzzObsolete_RPCServiceHost", "RPCServiceHost\zzzObsolete_RPCServiceHost.csproj", "{24B104F6-C89C-4022-9B8E-7FE11B661F40}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LeapMotion", "LeapMotion\LeapMotion.csproj", "{DFAEE5C9-3E02-4DF2-A460-8EB3191F00AB}"
 EndProject
@@ -13,7 +13,9 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Common", "Common\Common.csp
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HapticControlManager", "HapticControlManager\HapticControlManager.csproj", "{EDD82147-60B3-41C2-8084-01D0B47260DA}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LeapService", "LeapService\LeapService.csproj", "{F6DF452C-1755-4FB4-B09E-17D157167D64}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "zzzObsolete_LeapService", "LeapService\zzzObsolete_LeapService.csproj", "{F6DF452C-1755-4FB4-B09E-17D157167D64}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MicrosoftKinect", "MicrosoftKinect\MicrosoftKinect.csproj", "{18D71EB5-FE03-43CE-860D-FC0D0AF178CE}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -45,6 +47,10 @@ Global
 		{F6DF452C-1755-4FB4-B09E-17D157167D64}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F6DF452C-1755-4FB4-B09E-17D157167D64}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F6DF452C-1755-4FB4-B09E-17D157167D64}.Release|Any CPU.Build.0 = Release|Any CPU
+		{18D71EB5-FE03-43CE-860D-FC0D0AF178CE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{18D71EB5-FE03-43CE-860D-FC0D0AF178CE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{18D71EB5-FE03-43CE-860D-FC0D0AF178CE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{18D71EB5-FE03-43CE-860D-FC0D0AF178CE}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

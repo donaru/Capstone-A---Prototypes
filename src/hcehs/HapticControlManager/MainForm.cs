@@ -8,7 +8,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 using System.ServiceModel;
-using HapCon.HapticService;
+//using HapCon.HapticService; -- obsolete
 using HapCon.Common;
 using HapCon.LeapMotion;
 using System.IO;
@@ -50,9 +50,15 @@ namespace HapticControlManager
 
             ExportListViewlToXML(deviceListView, "", "configuration.xml");
 
-
+            /*
+             * Removing RPC network coding to simply functional library
+             * 
             host = new ServiceHost(typeof(HapCon.HapticService.HapticService));
             host.Open();
+             * 
+            */
+
+
             statusTextBox.Text = "Service started";
             statusTextBox.Update();
 

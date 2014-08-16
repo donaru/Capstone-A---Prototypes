@@ -12,6 +12,17 @@ namespace HapCon.Common
         HttpConnection,
         UsbConnection
     }
+
+    /*
+    public enum Gestures
+    {
+        SwipeLeft,
+        SwipeRight,
+
+    }
+     * */
+
+
     public interface IHardware
     {
         string Name { get; set; }

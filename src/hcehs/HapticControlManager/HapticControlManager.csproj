@@ -92,9 +92,9 @@
       <Project>{bcee44b8-7667-41ac-903b-26b27d3636ef}</Project>
       <Name>Common</Name>
     </ProjectReference>
-    <ProjectReference Include="..\HapticService\HapticService.csproj">
+    <ProjectReference Include="..\HapticService\zzzObsolete_HapticService.csproj">
       <Project>{af694872-36ef-4368-ad9f-5992e252d33e}</Project>
-      <Name>HapticService</Name>
+      <Name>zzzObsolete_HapticService</Name>
     </ProjectReference>
     <ProjectReference Include="..\LeapMotion\LeapMotion.csproj">
       <Project>{dfaee5c9-3e02-4df2-a460-8eb3191f00ab}</Project>
